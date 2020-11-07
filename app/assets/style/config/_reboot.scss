@@ -140,28 +140,6 @@ select {
 	}
 }
 
-@each $i, $val in $spacers {
-	.m {
-		&l-#{$i} {
-			margin-left: $val;
-		}
-		&r-#{$i} {
-			margin-right: $val;
-		}
-		&b-#{$i} {
-			margin-bottom: $val;
-		}
-	}
-	.p {
-		&b-#{$i} {
-			padding-bottom: $val;
-		}
-		&t-#{$i} {
-			padding-top: $val;
-		}
-	}
-}
-
 .container {
 	max-width: 1110px;
 	margin: 0 auto;
