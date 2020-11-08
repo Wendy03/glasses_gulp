@@ -615,10 +615,10 @@ footer .copyright {
 .pagination .next {
   background-color: #f2f2f2; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 767px) {
   .pagination a {
-    font-size: 18px;
-    line-height: 27px; } }
+    font-size: 12px;
+    line-height: 18px; } }
 
 .banner {
   background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png") center center no-repeat;
@@ -1016,13 +1016,13 @@ footer .copyright {
         height: 15px; } }
 
 .location .mapSelect {
-  width: 39.64%;
-  margin-bottom: 38px;
-  margin-top: 2px; }
+  width: 45%;
+  margin-bottom: 38px; }
   .location .mapSelect .selection {
-    font-size: 24px; }
+    font-size: 24px;
+    width: 21.82%; }
   .location .mapSelect select {
-    width: 237px; }
+    width: 73.64%; }
   @media only screen and (max-width: 992px) {
     .location .mapSelect {
       width: 50%; }
@@ -1032,7 +1032,7 @@ footer .copyright {
     .location .mapSelect {
       width: 100%; }
       .location .mapSelect select {
-        width: 227px;
+        width: 65.8%;
         height: 36px; } }
 
 .location .locationCard_item {
@@ -1089,11 +1089,13 @@ footer .copyright {
     width: 100%; } }
 
 .storeContent .storeSelect {
-  width: 445px;
-  margin-bottom: 32px;
-  margin-top: 2px; }
+  width: 40.09%;
+  margin-bottom: 32px; }
   .storeContent .storeSelect .selection {
     font-size: 24px; }
+  .storeContent .storeSelect select {
+    width: 73%;
+    height: 45px; }
   @media only screen and (max-width: 992px) {
     .storeContent .storeSelect {
       width: 50%; }
