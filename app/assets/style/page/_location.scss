@@ -1,13 +1,13 @@
 .location {
 	.mapSelect {
-		width: 39.64%;
+		width: 45%;
     margin-bottom: 38px;
-    margin-top: 2px;
 		.selection {
 			font-size: 24px;
+			width: 21.82%
 		}
 		select {
-			width: 237px;
+			width: 73.64%;
 		}
 		@include breakpoint(pad) {
 			width: 50%;
@@ -18,7 +18,7 @@
 		@include breakpoint(phone) {
 			width: 100%;
 			select {
-				width: 227px;
+				width: 65.8%;
 				height: 36px;
 			}
 		}
@@ -93,14 +93,17 @@
 }
 .storeContent {
 	.storeSelect {
-    width: 445px;
+    width: 40.09%;
     margin-bottom: 32px;
-    margin-top: 2px;
 		.selection {
 			font-size: 24px;
 		}
+		select {
+			width: 73%;
+			height: 45px;
+		}
 		@include breakpoint(pad) {
-      width: 50%;
+			width: 50%;
       .selection {
         font-size: 16px;
       }

@@ -14,10 +14,10 @@
 	.next {
 		background-color: #f2f2f2;
 	}
-	@include breakpoint(pad) {
+	@include breakpoint(phone) {
 		a {
-			font-size: 18px;
-			line-height: 27px;
+			font-size: 12px;
+			line-height: 18px;
 		}
 	}
 }
