@@ -196,19 +196,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -217,21 +285,34 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block; }
 
 body {
   line-height: 1; }
 
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none; }
 
@@ -250,7 +331,7 @@ body {
   width: 100%;
   height: 100%;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif; }
 
 h1,
 h2,
@@ -260,47 +341,61 @@ h5,
 p {
   line-height: 1.5; }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 4rem;
   font-weight: bold; }
   @media only screen and (max-width: 992px) {
-    h1, .h1 {
+    h1,
+    .h1 {
       font-size: 3rem; } }
   @media only screen and (max-width: 767px) {
-    h1, .h1 {
+    h1,
+    .h1 {
       font-size: 2rem; } }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 3rem; }
   @media only screen and (max-width: 992px) {
-    h2, .h2 {
+    h2,
+    .h2 {
       font-size: 2rem; } }
   @media only screen and (max-width: 767px) {
-    h2, .h2 {
+    h2,
+    .h2 {
       font-size: 1.5rem; } }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 2.25rem; }
   @media only screen and (max-width: 992px) {
-    h3, .h3 {
+    h3,
+    .h3 {
       font-size: 1.25rem; } }
   @media only screen and (max-width: 767px) {
-    h3, .h3 {
+    h3,
+    .h3 {
       font-size: 1rem; } }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 2rem; }
   @media only screen and (max-width: 992px) {
-    h4, .h4 {
+    h4,
+    .h4 {
       font-size: 1.5rem; } }
   @media only screen and (max-width: 767px) {
-    h4, .h4 {
+    h4,
+    .h4 {
       font-size: 1rem; } }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 1.5rem; }
   @media only screen and (max-width: 992px) {
-    h5, .h5 {
+    h5,
+    .h5 {
       font-size: 1.25rem; } }
 
 .font-xs {
@@ -447,7 +542,7 @@ footer .copyright {
   padding-top: 12px;
   border-top: 1px solid #ffffff; }
   footer .copyright_content {
-    width: 83.06%; }
+    width: 88%; }
     footer .copyright_content p {
       color: #ffffff;
       margin-right: auto; }
@@ -621,7 +716,6 @@ footer .copyright {
 .banner {
   background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png") center center no-repeat;
   background-size: cover;
-  width: 100%;
   height: 860px;
   color: #650300; }
   @media only screen and (max-width: 992px) {
@@ -651,6 +745,8 @@ footer .copyright {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .intro .service_item p {
+    text-align: justify; }
   @media only screen and (max-width: 992px) {
     .intro .service_item {
       width: calc(100% / 2 - 50px);
@@ -768,21 +864,19 @@ footer .copyright {
           flex-wrap: wrap; } }
   .crossover_item {
     position: relative;
-    width: 48.75%; }
-    .crossover_item .overlay {
+    width: calc(100% / 2 - 30px); }
+    .crossover_item::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      display: inline-block;
       position: absolute;
-      top: 0;
-      bottom: 0;
       left: 0;
-      right: 0;
-      background-color: rgba(255, 255, 255, 0.5);
-      z-index: 1; }
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.5); }
     @media only screen and (max-width: 767px) {
       .crossover_item {
         width: 100%; } }
-  .crossover_img {
-    z-index: 0;
-    position: relative; }
   .crossover_title {
     position: absolute;
     z-index: 2;
@@ -877,14 +971,14 @@ footer .copyright {
         .contact input::placeholder,
         .contact textarea::placeholder {
           font-size: 14px; } }
-  .contact input[type="checkbox"] + label {
+  .contact input[type='checkbox'] + label {
     display: inline-block;
     cursor: pointer;
     padding-left: 4px; }
-  .contact input[type="checkbox"] {
+  .contact input[type='checkbox'] {
     display: none; }
-  .contact input[type="checkbox"] + label::before {
-    content: "\2714";
+  .contact input[type='checkbox'] + label::before {
+    content: '\2714';
     border: 1px solid #000;
     border-radius: 2px;
     display: inline-block;
@@ -895,16 +989,16 @@ footer .copyright {
     margin: -3px 1px 0 0;
     color: transparent; }
     @media only screen and (max-width: 992px) {
-      .contact input[type="checkbox"] + label::before {
+      .contact input[type='checkbox'] + label::before {
         width: 14px;
         height: 14px; } }
-  .contact input[type="checkbox"]:checked + label:before {
+  .contact input[type='checkbox']:checked + label:before {
     background-color: #aa0601;
     color: #ffffff; }
   .contact .submit {
     margin-top: 42px;
     text-align: center; }
-  .contact input[type="submit"] {
+  .contact input[type='submit'] {
     width: 350px;
     font-size: 16px;
     cursor: pointer;
@@ -912,13 +1006,13 @@ footer .copyright {
     background: #aa0601;
     color: #ffffff; }
     @media only screen and (max-width: 992px) {
-      .contact input[type="submit"] {
+      .contact input[type='submit'] {
         width: 210px;
         font-size: 14px; } }
     @media only screen and (max-width: 767px) {
-      .contact input[type="submit"] {
+      .contact input[type='submit'] {
         width: 165px; } }
-    .contact input[type="submit"]:hover {
+    .contact input[type='submit']:hover {
       background: #650300; }
 
 .optical_item {
@@ -1033,60 +1127,57 @@ footer .copyright {
         width: 65.8%;
         height: 36px; } }
 
-.location .locationCard_item {
-  border: 1px solid #00000020;
-  width: calc(100% / 3 - 30px);
-  margin: 0 15px 52px; }
-  .location .locationCard_item img {
-    width: 100%; }
-
-.location .locationCard_header {
-  padding: 16px 12px; }
-
-.location .locationCard_body {
-  font-size: 20px;
-  line-height: 30px;
-  padding: 16px 24px;
-  border-top: 1px solid #00000020; }
-  .location .locationCard_body img {
-    width: 21px;
-    height: 21px;
-    margin-right: 8px; }
-
-.location .locationCard_footer a {
-  background-color: #000000;
-  color: #ffffff;
-  display: block;
-  text-align: center;
-  padding: 20px 0; }
-  .location .locationCard_footer a:hover {
-    background-color: #dee2e6;
-    color: #000000; }
-
-@media only screen and (max-width: 992px) {
+.location .locationCard {
+  margin: 0 -15px; }
   .location .locationCard_item {
-    width: calc(100% / 2 - 30px); }
+    border: 1px solid #00000020;
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px 52px; }
+    .location .locationCard_item img {
+      width: 100%; }
   .location .locationCard_header {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 16px 8px; }
+    padding: 16px 12px; }
   .location .locationCard_body {
-    font-size: 14px;
-    line-height: 21px;
-    padding: 16px 16px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 16px 24px;
     border-top: 1px solid #00000020; }
     .location .locationCard_body img {
-      width: 20px;
-      height: 20px;
-      margin-right: 16px; }
+      width: 21px;
+      height: 21px;
+      margin-right: 8px; }
   .location .locationCard_footer a {
-    font-size: 14px;
-    line-height: 21px;
-    padding: 16px 0; } }
-
-@media only screen and (max-width: 767px) {
-  .location .locationCard_item {
-    width: 100%; } }
+    background-color: #000000;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 20px 0; }
+    .location .locationCard_footer a:hover {
+      background-color: #dee2e6;
+      color: #000000; }
+  @media only screen and (max-width: 992px) {
+    .location .locationCard_item {
+      width: calc(100% / 2 - 30px); }
+    .location .locationCard_header {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 16px 8px; }
+    .location .locationCard_body {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 16px 16px;
+      border-top: 1px solid #00000020; }
+      .location .locationCard_body img {
+        width: 20px;
+        height: 20px;
+        margin-right: 16px; }
+    .location .locationCard_footer a {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 16px 0; } }
+  @media only screen and (max-width: 767px) {
+    .location .locationCard_item {
+      width: 100%; } }
 
 .storeContent .storeSelect {
   width: 40.09%;
@@ -1298,9 +1389,9 @@ footer .copyright {
     .articleContent .breadcrumb_item {
       margin-right: 16px; } }
   .articleContent .breadcrumb_item:first-child::before {
-    content: ""; }
+    content: ''; }
   .articleContent .breadcrumb_item::before {
-    content: "/";
+    content: '/';
     color: #555;
     position: absolute;
     left: -20px; }
