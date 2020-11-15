@@ -865,18 +865,20 @@ footer .copyright {
   .crossover_item {
     position: relative;
     width: calc(100% / 2 - 30px); }
-    .crossover_item::before {
-      content: '';
-      width: 100%;
-      height: 100%;
-      display: inline-block;
+    .crossover_item .overlay {
       position: absolute;
-      left: 0;
       top: 0;
-      background-color: rgba(255, 255, 255, 0.5); }
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.5);
+      z-index: 1; }
     @media only screen and (max-width: 767px) {
       .crossover_item {
         width: 100%; } }
+  .crossover_img {
+    z-index: 0;
+    position: relative; }
   .crossover_title {
     position: absolute;
     z-index: 2;
