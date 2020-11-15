@@ -1,29 +1,29 @@
 .infoBanner {
-	background: url("https://hexschool.github.io/webLayoutTraining1st/week3/qa.png")
-		center center no-repeat;
-	height: 304px;
-	.container {
-		height: 100%;
-		padding-bottom: 0;
-	}
-	&_title {
-		@include breakpoint(pad) {
-			h2 {
-				font-size: 48px;
-			}
-			img {
-				width: 30px;
-				height: 44px;
-			}
-		}
-		@include breakpoint(phone) {
-			h2 {
-				font-size: 28px;
-			}
-			img {
-				width: 17px;
-				height: 24px;
-			}
-		}
-	}
+  background: url('https://hexschool.github.io/webLayoutTraining1st/week3/qa.png')
+    center center no-repeat;
+  height: 304px;
+  .container {
+    height: 100%;
+    padding-bottom: 0;
+  }
+  &_title {
+    @include breakpoint(pad) {
+      h2 {
+        font-size: 48px;
+      }
+      img {
+        width: 30px;
+        height: 44px;
+      }
+    }
+    @include breakpoint(phone) {
+      h2 {
+        font-size: 28px;
+      }
+      img {
+        width: 17px;
+        height: 24px;
+      }
+    }
+  }
 }
